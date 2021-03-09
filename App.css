@@ -1,0 +1,196 @@
+.list{
+    padding: 10px;
+    margin: 10px;
+    margin-left: -30px;
+    border-radius: 100px;
+    background-color: rgb(0, 225, 255);
+    overflow: scroll;
+    
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdARkShUFvTkCKp_Br0mp33a_64904CV1oVQ&usqp=CAU'); */
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    list-style-type: circle;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: red;
+  }
+
+  .div{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiQbX0M12l8-kftZS48IQiKXiZo5gxt0ZNqg&usqp=CAU');
+   
+  }
+
+.inp{
+border-radius: 100px;
+width: 300px;
+text-align: center;
+margin-left: 27px;
+height: 40px;
+font-style: oblique;
+font-weight: bold;
+text-align: center;
+text-decoration: underline;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: red;
+border: none 1px wheat;
+cursor: pointer;
+box-shadow: 0px 0px 8px 0px red;
+overflow: scroll;
+margin-top: 10px;
+}
+
+
+
+.ul{
+overflow: scroll;
+}
+
+/* .head{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 200px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 50px;
+
+} */
+
+@media only screen and (max-width: 400px) {
+  .div{
+margin-left: -4026px;
+background-color: red;
+  }
+
+}
+
+.mobile{
+   width: 400px;
+   height: 700px;
+   overflow: scroll;
+   background-color: white;
+   margin-left: 425px;
+   background-image: url('https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+
+li{
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 8px 0px grey;
+  cursor: pointer;
+  color: grey;
+  list-style-type: square;
+}
+
+.inputt{
+border: hidden;
+background-color: rgb(0, 225, 255);
+text-decoration: underline grey;
+border-bottom: 1px solid white;
+color: white;
+font-size: 17px;
+font-weight: bold;
+font-style: oblique;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inputt:hover{
+  border: hidden;
+  background-color: rgb(0, 225, 255);
+  text-decoration: underline grey;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .inputt:focus{
+    border: hidden;
+    background-color: rgb(0, 225, 255);
+    text-decoration: underline grey;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .inputt:default{
+      border: hidden;
+      background-color: rgb(0, 225, 255);
+      text-decoration: underline grey;
+      border-bottom: 1px solid white;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      font-style: oblique;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+.inputt:active{
+  border: hidden;
+  background-color: rgb(0, 225, 255);
+  text-decoration: underline grey;
+  border-bottom: 1px solid grey;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.head{
+  /* padding: 10px; */
+  margin: 10px;
+  margin-top: 1px;
+  margin-left: -1px;
+  margin-right: -1px; 
+  border-radius: 100px;
+  background-image: url('https://images.pexels.com/photos/2486168/pexels-photo-2486168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  /* font-style: oblique; */
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  cursor: pointer;
+  list-style-type: circle;
+}
+
+button{
+  border-radius: 100px;
+  width: 50px;
+  padding-left: 5px;
+  height: 50px;
+  margin: 20px;
+  background-color: rgb(163, 161, 161);
+  border: hidden;
+  color: white;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-style: oblique; */
+
+}
+
+.add{
+  margin-left: 15px;
+  cursor: pointer;
+border-radius: 100px;
+}
